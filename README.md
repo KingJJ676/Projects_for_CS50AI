@@ -4,3 +4,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
 **Click on the links below to check each branch for the projects.**  
   
 [week0_degrees](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_degrees) : breadth-first-search & depth-first-search  
+[week0_tictactoe](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_tictactoe) : minimax  
