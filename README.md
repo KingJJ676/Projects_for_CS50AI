@@ -1,5 +1,5 @@
 # Knights  
-This is a program that solves logic puzzles.  
+This is a program that solves logic puzzles by implementing logical expressions.  
 
 ## Background
 In 1978, logician Raymond Smullyan published “What is the name of this book?”, a book of logical puzzles. Among the puzzles in the book were a class of puzzles that Smullyan called “Knights and Knaves” puzzles.  
