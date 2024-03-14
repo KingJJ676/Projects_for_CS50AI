@@ -25,3 +25,21 @@ What follows are four different knowledge bases, ```knowledge0```, ```knowledge1
 
 **```main```**  
 The main function of this ```puzzle.py``` loops over all puzzles, and uses model checking to compute, given the knowledge for that puzzle, whether each character is a knight or a knave, printing out any conclusions that the model checking algorithm is able to make.
+
+## Puzzles
+- Puzzle 0:  
+A says “I am both a knight and a knave.”  
+
+- Puzzle 1:  
+A says “We are both knaves.”  
+B says nothing.  
+
+- Puzzle 2:  
+A says “We are the same kind.”  
+B says “We are of different kinds.”  
+
+- Puzzle 3:  
+A says either “I am a knight.” or “I am a knave.”, but you don’t know which.  
+B says “A said ‘I am a knave.’”  
+B then says “C is a knave.”  
+C says “A is a knight.”  
