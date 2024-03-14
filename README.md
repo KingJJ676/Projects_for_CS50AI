@@ -5,3 +5,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
   
 [week0_degrees](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_degrees) : breadth-first-search & depth-first-search  
 [week0_tictactoe](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_tictactoe) : minimax  
+[week1_knights](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_knights) : logical expressions  
