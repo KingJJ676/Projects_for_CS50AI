@@ -8,3 +8,5 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
 [week1_knights](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_knights) : logical expressions  
 [week1_minesweeper](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_minesweeper) : logical expressions   
 [week2_pagerank](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_pagerank) : random surfer model & iterative algorithm  
+[week2_heredity](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_heredity) : Bayesian network, joint probability & conditional probability  
+  
