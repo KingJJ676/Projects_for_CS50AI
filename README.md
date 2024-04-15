@@ -10,4 +10,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
 [week2_pagerank](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_pagerank) : random surfer model, iterative algorithm  
 [week2_heredity](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_heredity) : Bayesian network, joint probability, conditional probability  
 [week3_crossword](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week3_crossword) : Constraint Satisfication Problem, Backtrack search, AC-3  
-  
+[week4_shopping](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_shopping) : K-Nearest-Neighbor Classification
