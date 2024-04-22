@@ -1,13 +1,21 @@
-# Projects for CS50AI  
-This repo contains the projects I did for Harvard CS50's Introduction to Artificial Intelligence with Python course, including 12 projects.   
-  
-**Click on the links below to check each branch for the projects.**  
-  
-[week0_degrees](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_degrees) : breadth-first-search, depth-first-search  
-[week0_tictactoe](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_tictactoe) : minimax  
-[week1_knights](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_knights) : logical expressions  
-[week1_minesweeper](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_minesweeper) : logical expressions   
-[week2_pagerank](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_pagerank) : random surfer model, iterative algorithm  
-[week2_heredity](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_heredity) : Bayesian network, joint probability, conditional probability  
-[week3_crossword](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week3_crossword) : Constraint Satisfication Problem, Backtrack search, AC-3  
-[week4_shopping](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_shopping) : K-Nearest-Neighbor Classification
+# Nim
+This is an AI that teaches itself to play Nim through _reinforcement learning_.  
+```
+$ python play.py
+Playing training game 1
+Playing training game 2
+Playing training game 3
+...
+Playing training game 9999
+Playing training game 10000
+Done training
+
+Piles:
+Pile 0: 1
+Pile 1: 3
+Pile 2: 5
+Pile 3: 7
+
+AI's Turn
+AI chose to take 1 from pile 2.
+```
