@@ -13,3 +13,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
 |[week3_crossword](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week3_crossword)|Constraint Satisfication Problem, Backtrack Search, AC-3|
 |[week4_shopping](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_shopping)|K-Nearest-Neighbor Classification|
 |[week4_nim](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_nim)|Reinforcement Learning, Q-Learning, Greedy & Epsilon-Greedy Algorithm|
+|[week5_traffic](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week5_traffic)| Convolutional Neural Network|
