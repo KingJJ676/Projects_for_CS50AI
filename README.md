@@ -1,15 +1,12 @@
-# Projects for CS50AI  
-This repo contains the projects I did for Harvard CS50's Introduction to Artificial Intelligence with Python course, including 12 projects.   
+## Dropout or not
+I've tried running the model with and without **a dropout layer of 0.5**, and the result and other details are as below.  
   
-**Click on the links below to check each branch for the projects.**  
-| Week | Concept |
-|:----:|:----:|
-|[week0_degrees](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_degrees)|Breadth-First-Search, Depth-First-Search |
-|[week0_tictactoe](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week0_tictactoe)|Minimax|
-|[week1_knights](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_knights)|Logical Expressions| 
-|[week1_minesweeper](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week1_minesweeper)|Logical Expressions|   
-|[week2_pagerank](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_pagerank)|Random Surfer Model, Iterative Algorithm|
-|[week2_heredity](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week2_heredity)|Bayesian Network, Joint Probability, Conditional Probability| 
-|[week3_crossword](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week3_crossword)|Constraint Satisfication Problem, Backtrack Search, AC-3|
-|[week4_shopping](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_shopping)|K-Nearest-Neighbor Classification|
-|[week4_nim](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_nim)|Reinforcement Learning, Q-Learning, Greedy & Epsilon-Greedy Algorithm|
+
+| With Dropdown | No Dropdown |
+|:----------------------:|:--------------------:|
+| ![alt text](image.png) | ![alt text](image-1.png)|
+|![alt text](image-2.png) | ![alt text](image-3.png) |
+
+First, look at the 10 epochs in the top left image. The accuracy increased stably as more epochs are done, starting from 0.48 to 0.97. Similarly, the model got an accuracy of 0.97 on the testing data set, which is reasonable. 
+  
+Next, look at the epochs in the top right image. The accuracy seems to be gradually increasing for the first 8 epochs, leveraging from 0.47 to 0.98. However, it endured a sudden decrease in the 9th epoch, lowering to 0.95. The accuracy went back to about 0.98 in the next epoch, but was surprisingly low on the testing data set with an accuracy of 0.94. I surmise that this is due to the happening of overfitting in the 9th epoch. Which is why the model performed really well in the 10th epoch, but rather badly on the testing data set. 
