@@ -1,6 +1,7 @@
 # Traffic  
-This is an AI that identifies which traffic sign appears in a photograph.  
-
+This is an AI that identifies which traffic sign appears in a photograph.   
+  
+[German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news) (GTSRB) is a collection of images that have already been categorized by the road sign represented in them. Using [TensorFlow](https://www.tensorflow.org/) to build a neural network, the AI will be able to identify the road sign given an image.  
 ```
 $ python traffic.py gtsrb
 Epoch 1/10
@@ -25,14 +26,22 @@ Epoch 10/10
 500/500 [==============================] - 10s 20ms/step - loss: 0.2497 - accuracy: 0.9256
 333/333 - 5s - loss: 0.1616 - accuracy: 0.9535
 ```
-## Background  
+## File explanation  
+**```gtsrb```**  
+This data set contains 43 subdirectories, numbered 0 through 42. Each numbered subdirectory represents a different category (a different type of road sign). Within each traffic sign’s directory is a collection of images of that type of traffic sign.  
 
+**```traffic.py```**  
+The ```main``` function accepts as command-line arguments a directory containing the data and (optionally) a filename to which to save the trained model. The data and corresponding labels are then loaded from the data directory and split into training and testing sets. After that, the ```get_model``` function is called to obtain a compiled neural network that is then fitted on the training data. The model is then evaluated on the testing data. Finally, if a model filename was provided, the trained model is saved to disk.  
 
+**The```load data``` function**   
+This function accepts as an argument ```data_dir```, representing the path to a directory where the data is stored, and return image arrays and labels for each image in the data set.  
 
-## Dropout or not
-I've tried running the model with and without **a dropout layer of 0.5**, and the result and other details are as below.  
+**The ```get_model``` function**  
+This function returns a compiled neural network model.  
   
-
+## Experiment: dropout or not
+I've tried running the model with and without **a dropout layer of 0.5**, and the result and other details are as below.  
+   
 | With Dropdown | No Dropdown |
 |:----------------------:|:--------------------:|
 | ![alt text](images/image.png) | ![alt text](images/image-1.png)|
