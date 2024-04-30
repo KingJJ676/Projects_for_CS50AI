@@ -16,7 +16,7 @@ holmes
 ```
   
 ## File Explanation
-**```sentences``` directory**  
+**The ```sentences``` directory**  
 There are ten files in this directory, each containing an English sentence. The AI can be tested on these data sets.  
 
 **```parser.py```**   
