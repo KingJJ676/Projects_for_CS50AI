@@ -15,3 +15,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Artific
 |[week4_nim](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week4_nim)|Reinforcement Learning, Q-Learning, Greedy & Epsilon-Greedy Algorithm|
 |[week5_traffic](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week5_traffic)| Convolutional Neural Network|
 |[week6_parser](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week6_parser) | Parsing, NLTK |
+|[week6_attention](https://github.com/KingJJ676/Projects_for_CS50AI/tree/week6_attention) | Masked Language Model, BERT, Natural Language Processing |
